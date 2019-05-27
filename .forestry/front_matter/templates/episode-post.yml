@@ -5,15 +5,18 @@ fields:
 - type: text
   name: permalink
   label: permalink
+  default: "/XX/"
 - type: list
   name: actor_ids
   label: actor_ids
 - type: text
   name: audio_file_url
   label: audio_file_url
+  default: https://storage.googleapis.com/noracast/XX.mp3
 - type: datetime
   name: date
   label: date
+  default: '2019-05-27 05:11:49 +0000'
 - type: datetime
   name: rec_date
   label: rec_date
@@ -23,9 +26,12 @@ fields:
 - type: text
   name: duration
   label: duration
+  default: '"60:00"'
 - type: text
   name: layout
   label: layout
+  default: article
 - type: text
   name: title
   label: title
+  default: XX. XXXXXX
