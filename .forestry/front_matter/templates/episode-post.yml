@@ -35,3 +35,5 @@ fields:
   name: title
   label: title
   default: XX. XXXXXX
+pages:
+- _posts/xx-xxxxxx.md
