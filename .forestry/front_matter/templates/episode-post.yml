@@ -9,6 +9,14 @@ fields:
 - type: list
   name: actor_ids
   label: actor_ids
+  config:
+    use_select: true
+    source:
+      type: simple
+    options:
+    - miyamoto
+    - sugi
+    - terada
 - type: text
   name: audio_file_url
   label: audio_file_url
