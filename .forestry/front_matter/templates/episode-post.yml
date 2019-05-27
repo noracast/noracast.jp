@@ -1,0 +1,31 @@
+---
+label: Episode Post
+hide_body: false
+fields:
+- type: text
+  name: permalink
+  label: permalink
+- type: list
+  name: actor_ids
+  label: actor_ids
+- type: text
+  name: audio_file_url
+  label: audio_file_url
+- type: datetime
+  name: date
+  label: date
+- type: datetime
+  name: rec_date
+  label: rec_date
+- type: textarea
+  name: description
+  label: description
+- type: text
+  name: duration
+  label: duration
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: title
+  label: title
