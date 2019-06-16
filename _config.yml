@@ -1,4 +1,8 @@
 actors:
+  forte:
+    image_url: /images/actors/forte.jpg
+    name: FORTE
+    url: https://twitter.com/FORTEgp05
   miyamoto:
     image_url: /images/actors/miyamoto.jpg
     name: ミヤモト
