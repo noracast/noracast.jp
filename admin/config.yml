@@ -16,8 +16,8 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"   # Filename template i.e. 2018-05-28-1.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Date", name: "date", widget: "datetime"}
-      - {label: "RecDate", name: "rec_date", widget: "datetime"}
+      - {label: "Date", name: "date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ssZ"}
+      - {label: "RecDate", name: "rec_date", widget: "datetime", format: "YYYY-MM-DDTHH:mm:ssZ"}
       - {label: "Permalink", name: "permalink", widget: "string"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "article"}
       - {label: "Description", name: "description", widget: "text"}
