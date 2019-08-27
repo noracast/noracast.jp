@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: noracast/noracast.jp # Path to your Github repository
-  branch: add-netlify-cms # Branch to update
+  branch: master # Branch to update
 
 publish_mode: editorial_workflow
 
