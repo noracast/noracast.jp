@@ -28,7 +28,7 @@
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <description>
           {{ post.content | xml_escape }}
-          {% if page.rec_date %}<p>収録日: {{ page.rec_date | date: "%Y年%m月%d日" }}</p>{% endif %}
+          {% if post.rec_date %}<p>収録日: {{ post.rec_date | date: "%Y年%m月%d日" }}</p>{% endif %}
         </description>
         <guid isPermaLink="true">{{ site.url }}{{ post.url }}</guid>
         <enclosure url="{{ post.audio_file_url }}" length="{{ post.audio_file_url | filesize }}" type="audio/{{ post.audio_file_url | extname }}"/>
