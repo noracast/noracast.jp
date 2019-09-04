@@ -16,3 +16,8 @@
   ```
 
 順番的に、[最後にffmpegを通すのが良さそう](https://gist.github.com/naokazuterada/5cb8798881a146faca790a2ff86415c7)だったが、チャプター情報が消えてしまうので、上記の順番にすること。
+
+
+## shownoteの作り方
+
+wip
