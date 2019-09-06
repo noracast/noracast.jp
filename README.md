@@ -5,7 +5,7 @@
 # 音源ファイルの作り方
 
 1. GarageBand  or Adboe Auditionで編集して書き出し
-2. モノラル変換（あるいは圧縮しなおし）
+2. モノラル変換・圧縮
   ```sh
   ffmpeg -i stereo.mp3 -ac 1 mono.mp3
   ```
