@@ -17,7 +17,11 @@
 
 順番的に、[最後にffmpegを通すのが良さそう](https://gist.github.com/naokazuterada/5cb8798881a146faca790a2ff86415c7)だったが、チャプター情報が消えてしまうので、上記の順番にすること。
 
+## deloyの仕方
 
-## shownoteの作り方
+- Staging: master
+- Production: manual deploy on netlify
 
-wip
+## misc 
+
+- [リンク集](https://noraneers.slack.com/files/T3YLLA5FZ/FMWLUV63F?origin_team=T3YLLA5FZ)
